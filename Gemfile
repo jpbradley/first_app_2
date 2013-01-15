@@ -12,6 +12,10 @@ group :production do
 	gem 'pg'
 end
 
+group :assets do
+  gem 'jquery-rails'
+end
+
 # Gems used only for assets and not required
 # in production environments by default.
 #group :assets do
